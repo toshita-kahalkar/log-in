@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(pexels-hasan-albari-1229861.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    color:white;
+    position: absolute;
+    top: 35%;
+    left: 14%;
+}
+.container h1{
+    font-size: 40px;
+    border-bottom: 5px solid rgb(216, 26, 216);
+    margin-bottom: 43px;
+    padding: 30px 0;
+}
+.box{
+    width: 100%;
+    margin: 22px 0px;
+    border-bottom:2px solid rgb(216, 26, 216) ;
+}
+.box input{
+    background: none;
+    width: 75%;
+    margin: 12px 0px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+}
+.box i{
+    padding: 0 12px;
+    width: 25px;
+    text-align: center;
+}
+.btn{
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+}
+.btn:hover{
+    color: rgb(163, 6, 100);
+    background: white;
+}
